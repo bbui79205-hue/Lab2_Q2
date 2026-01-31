@@ -16,7 +16,8 @@ int main() {
 
     area = length * width;
     smallBrownies = area;
-    largeBrownies = area / 4;
+  
+    largeBrownies = (length / 2) * (width / 2);
 
     cout << "A " << length << " x " << width
          << " inch pan can hold "
